@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Prova.xcodeproj">
+      location = "self:/Users/GabrieleVangi/Documents/XcodeWorkspace/Prova/DndGrapich.xcodeproj">
    </FileRef>
 </Workspace>

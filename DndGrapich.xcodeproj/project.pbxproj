@@ -13,11 +13,28 @@
 		4268B7A21DEDFEE1006037AA /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7A11DEDFEE1006037AA /* nice_music.ogg */; };
 		4268B7A41DEDFEE1006037AA /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7A31DEDFEE1006037AA /* sansation.ttf */; };
 		4268B7A61DEDFEE1006037AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7A51DEDFEE1006037AA /* icon.png */; };
+		4268B7BD1DEE01FC006037AA /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7AC1DEE01FC006037AA /* arrows.png */; };
+		4268B7BE1DEE01FC006037AA /* characters.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7AD1DEE01FC006037AA /* characters.png */; };
+		4268B7BF1DEE01FC006037AA /* defaultTiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7AE1DEE01FC006037AA /* defaultTiles.png */; };
+		4268B7C01DEE01FC006037AA /* emptycell.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7AF1DEE01FC006037AA /* emptycell.png */; };
+		4268B7C11DEE01FC006037AA /* enemies.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B01DEE01FC006037AA /* enemies.png */; };
+		4268B7C21DEE01FC006037AA /* equipButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B11DEE01FC006037AA /* equipButton.png */; };
+		4268B7C31DEE01FC006037AA /* equipScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B21DEE01FC006037AA /* equipScreen.png */; };
+		4268B7C41DEE01FC006037AA /* fullHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B31DEE01FC006037AA /* fullHighlight.png */; };
+		4268B7C51DEE01FC006037AA /* fullHighlightWeapon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B41DEE01FC006037AA /* fullHighlightWeapon.png */; };
+		4268B7C61DEE01FC006037AA /* highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B51DEE01FC006037AA /* highlight.png */; };
+		4268B7C71DEE01FC006037AA /* items.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B61DEE01FC006037AA /* items.png */; };
+		4268B7C81DEE01FC006037AA /* loseScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B71DEE01FC006037AA /* loseScreen.png */; };
+		4268B7C91DEE01FC006037AA /* mainGameButtons.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B81DEE01FC006037AA /* mainGameButtons.png */; };
+		4268B7CA1DEE01FC006037AA /* mainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7B91DEE01FC006037AA /* mainScreen.png */; };
+		4268B7CB1DEE01FC006037AA /* startScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7BA1DEE01FC006037AA /* startScreen.png */; };
+		4268B7CC1DEE01FC006037AA /* winScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7BB1DEE01FC006037AA /* winScreen.png */; };
+		4268B7CD1DEE01FC006037AA /* selectScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268B7BC1DEE01FC006037AA /* selectScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4268B7941DEDFEE0006037AA /* Prova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prova.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4268B7981DEDFEE0006037AA /* Prova-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prova-Info.plist"; sourceTree = "<group>"; };
+		4268B7941DEDFEE0006037AA /* DndGrapich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DndGrapich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4268B7981DEDFEE0006037AA /* DndGrapich-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DndGrapich-Info.plist"; sourceTree = "<group>"; };
 		4268B7991DEDFEE0006037AA /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		4268B79B1DEDFEE0006037AA /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		4268B79C1DEDFEE0006037AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -25,6 +42,23 @@
 		4268B7A11DEDFEE1006037AA /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		4268B7A31DEDFEE1006037AA /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		4268B7A51DEDFEE1006037AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4268B7AC1DEE01FC006037AA /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrows.png; path = ../../../../Desktop/Dnd3.3/images/arrows.png; sourceTree = "<group>"; };
+		4268B7AD1DEE01FC006037AA /* characters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = characters.png; path = ../../../../Desktop/Dnd3.3/images/characters.png; sourceTree = "<group>"; };
+		4268B7AE1DEE01FC006037AA /* defaultTiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultTiles.png; path = ../../../../Desktop/Dnd3.3/images/defaultTiles.png; sourceTree = "<group>"; };
+		4268B7AF1DEE01FC006037AA /* emptycell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emptycell.png; path = ../../../../Desktop/Dnd3.3/images/emptycell.png; sourceTree = "<group>"; };
+		4268B7B01DEE01FC006037AA /* enemies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemies.png; path = ../../../../Desktop/Dnd3.3/images/enemies.png; sourceTree = "<group>"; };
+		4268B7B11DEE01FC006037AA /* equipButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = equipButton.png; path = ../../../../Desktop/Dnd3.3/images/equipButton.png; sourceTree = "<group>"; };
+		4268B7B21DEE01FC006037AA /* equipScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = equipScreen.png; path = ../../../../Desktop/Dnd3.3/images/equipScreen.png; sourceTree = "<group>"; };
+		4268B7B31DEE01FC006037AA /* fullHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullHighlight.png; path = ../../../../Desktop/Dnd3.3/images/fullHighlight.png; sourceTree = "<group>"; };
+		4268B7B41DEE01FC006037AA /* fullHighlightWeapon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullHighlightWeapon.png; path = ../../../../Desktop/Dnd3.3/images/fullHighlightWeapon.png; sourceTree = "<group>"; };
+		4268B7B51DEE01FC006037AA /* highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight.png; path = ../../../../Desktop/Dnd3.3/images/highlight.png; sourceTree = "<group>"; };
+		4268B7B61DEE01FC006037AA /* items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = items.png; path = ../../../../Desktop/Dnd3.3/images/items.png; sourceTree = "<group>"; };
+		4268B7B71DEE01FC006037AA /* loseScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loseScreen.png; path = ../../../../Desktop/Dnd3.3/images/loseScreen.png; sourceTree = "<group>"; };
+		4268B7B81DEE01FC006037AA /* mainGameButtons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainGameButtons.png; path = ../../../../Desktop/Dnd3.3/images/mainGameButtons.png; sourceTree = "<group>"; };
+		4268B7B91DEE01FC006037AA /* mainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainScreen.png; path = ../../../../Desktop/Dnd3.3/images/mainScreen.png; sourceTree = "<group>"; };
+		4268B7BA1DEE01FC006037AA /* startScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startScreen.png; path = ../../../../Desktop/Dnd3.3/images/startScreen.png; sourceTree = "<group>"; };
+		4268B7BB1DEE01FC006037AA /* winScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winScreen.png; path = ../../../../Desktop/Dnd3.3/images/winScreen.png; sourceTree = "<group>"; };
+		4268B7BC1DEE01FC006037AA /* selectScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selectScreen.png; path = ../../../../Desktop/Dnd3.3/images/selectScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +83,7 @@
 		4268B7951DEDFEE0006037AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4268B7941DEDFEE0006037AA /* Prova.app */,
+				4268B7941DEDFEE0006037AA /* DndGrapich.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,7 +103,7 @@
 		4268B7971DEDFEE0006037AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4268B7981DEDFEE0006037AA /* Prova-Info.plist */,
+				4268B7981DEDFEE0006037AA /* DndGrapich-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -77,6 +111,23 @@
 		4268B79E1DEDFEE1006037AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4268B7AC1DEE01FC006037AA /* arrows.png */,
+				4268B7AD1DEE01FC006037AA /* characters.png */,
+				4268B7AE1DEE01FC006037AA /* defaultTiles.png */,
+				4268B7AF1DEE01FC006037AA /* emptycell.png */,
+				4268B7B01DEE01FC006037AA /* enemies.png */,
+				4268B7B11DEE01FC006037AA /* equipButton.png */,
+				4268B7B21DEE01FC006037AA /* equipScreen.png */,
+				4268B7B31DEE01FC006037AA /* fullHighlight.png */,
+				4268B7B41DEE01FC006037AA /* fullHighlightWeapon.png */,
+				4268B7B51DEE01FC006037AA /* highlight.png */,
+				4268B7B61DEE01FC006037AA /* items.png */,
+				4268B7B71DEE01FC006037AA /* loseScreen.png */,
+				4268B7B81DEE01FC006037AA /* mainGameButtons.png */,
+				4268B7B91DEE01FC006037AA /* mainScreen.png */,
+				4268B7BA1DEE01FC006037AA /* startScreen.png */,
+				4268B7BB1DEE01FC006037AA /* winScreen.png */,
+				4268B7BC1DEE01FC006037AA /* selectScreen.png */,
 				4268B79F1DEDFEE1006037AA /* cute_image.jpg */,
 				4268B7A11DEDFEE1006037AA /* nice_music.ogg */,
 				4268B7A31DEDFEE1006037AA /* sansation.ttf */,
@@ -88,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4268B7931DEDFEE0006037AA /* Prova */ = {
+		4268B7931DEDFEE0006037AA /* DndGrapich */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4268B7A91DEDFEE1006037AA /* Build configuration list for PBXNativeTarget "Prova" */;
+			buildConfigurationList = 4268B7A91DEDFEE1006037AA /* Build configuration list for PBXNativeTarget "DndGrapich" */;
 			buildPhases = (
 				4268B78F1DEDFEE0006037AA /* Sources */,
 				4268B7901DEDFEE0006037AA /* Frameworks */,
@@ -101,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Prova;
+			name = DndGrapich;
 			productName = Prova;
-			productReference = 4268B7941DEDFEE0006037AA /* Prova.app */;
+			productReference = 4268B7941DEDFEE0006037AA /* DndGrapich.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4268B78E1DEDFEE0006037AA /* Build configuration list for PBXProject "Prova" */;
+			buildConfigurationList = 4268B78E1DEDFEE0006037AA /* Build configuration list for PBXProject "DndGrapich" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4268B7931DEDFEE0006037AA /* Prova */,
+				4268B7931DEDFEE0006037AA /* DndGrapich */,
 			);
 		};
 /* End PBXProject section */
@@ -143,9 +194,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4268B7A61DEDFEE1006037AA /* icon.png in Resources */,
+				4268B7BD1DEE01FC006037AA /* arrows.png in Resources */,
+				4268B7C31DEE01FC006037AA /* equipScreen.png in Resources */,
 				4268B7A41DEDFEE1006037AA /* sansation.ttf in Resources */,
+				4268B7C81DEE01FC006037AA /* loseScreen.png in Resources */,
+				4268B7C11DEE01FC006037AA /* enemies.png in Resources */,
+				4268B7CC1DEE01FC006037AA /* winScreen.png in Resources */,
+				4268B7CA1DEE01FC006037AA /* mainScreen.png in Resources */,
 				4268B7A21DEDFEE1006037AA /* nice_music.ogg in Resources */,
+				4268B7C91DEE01FC006037AA /* mainGameButtons.png in Resources */,
+				4268B7CB1DEE01FC006037AA /* startScreen.png in Resources */,
 				4268B7A01DEDFEE1006037AA /* cute_image.jpg in Resources */,
+				4268B7C51DEE01FC006037AA /* fullHighlightWeapon.png in Resources */,
+				4268B7C41DEE01FC006037AA /* fullHighlight.png in Resources */,
+				4268B7CD1DEE01FC006037AA /* selectScreen.png in Resources */,
+				4268B7C21DEE01FC006037AA /* equipButton.png in Resources */,
+				4268B7C61DEE01FC006037AA /* highlight.png in Resources */,
+				4268B7C71DEE01FC006037AA /* items.png in Resources */,
+				4268B7BF1DEE01FC006037AA /* defaultTiles.png in Resources */,
+				4268B7BE1DEE01FC006037AA /* characters.png in Resources */,
+				4268B7C01DEE01FC006037AA /* emptycell.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +339,7 @@
 		4268B7AA1DEDFEE1006037AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Prova/Prova-Info.plist";
+				INFOPLIST_FILE = "Prova/DndGrapich-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -280,7 +348,7 @@
 		4268B7AB1DEDFEE1006037AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Prova/Prova-Info.plist";
+				INFOPLIST_FILE = "Prova/DndGrapich-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -289,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4268B78E1DEDFEE0006037AA /* Build configuration list for PBXProject "Prova" */ = {
+		4268B78E1DEDFEE0006037AA /* Build configuration list for PBXProject "DndGrapich" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4268B7A71DEDFEE1006037AA /* Debug */,
@@ -298,13 +366,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4268B7A91DEDFEE1006037AA /* Build configuration list for PBXNativeTarget "Prova" */ = {
+		4268B7A91DEDFEE1006037AA /* Build configuration list for PBXNativeTarget "DndGrapich" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4268B7AA1DEDFEE1006037AA /* Debug */,
 				4268B7AB1DEDFEE1006037AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

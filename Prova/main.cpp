@@ -23,21 +23,22 @@
 int main(int, char const**)
 {
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "D&D");
 
     // Set the Icon
     sf::Image icon;
-    if (!icon.loadFromFile(resourcePath() + "icon.png")) {
+    if (!icon.loadFromFile(resourcePath() + "startScreen.png")) {
         return EXIT_FAILURE;
     }
     window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 
     // Load a sprite to display
     sf::Texture texture;
-    if (!texture.loadFromFile(resourcePath() + "cute_image.jpg")) {
+    if (!texture.loadFromFile(resourcePath() + "startScreen.png")) {
         return EXIT_FAILURE;
     }
     sf::Sprite sprite(texture);
+
 
     // Create a graphical text to display
     sf::Font font;
@@ -45,16 +46,7 @@ int main(int, char const**)
         return EXIT_FAILURE;
     }
     sf::Text text("Hello SFML", font, 50);
-    text.setFillColor(sf::Color::Black);
-
-    // Load a music to play
-    sf::Music music;
-    if (!music.openFromFile(resourcePath() + "nice_music.ogg")) {
-        return EXIT_FAILURE;
-    }
-
-    // Play the music
-    music.play();
+    text.setFillColor(sf::Color::White);
 
     // Start the game loop
     while (window.isOpen())
@@ -73,7 +65,25 @@ int main(int, char const**)
                 window.close();
             }
         }
-
+        
+        
+        if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+        {
+            sf::RenderWindow window(sf::VideoMode(800, 600), "Select Screen");
+            // Load a sprite to display
+            sf::Texture selectScreen;
+            if (!texture.loadFromFile(resourcePath() + "selectScreen.png")) {
+                return EXIT_FAILURE;
+            }
+            sf::Sprite sprite(selectScreen);
+        }
+        // get the local mouse position (relative to a window)
+        sf::Vector2f v1(16.5f, 24.f);
+        v1.x = 18.2f;
+        
+        sf::Vector2i localPosition = sf::Mouse::getPosition(window); // window is a sf::Window
+        
+     
         // Clear screen
         window.clear();
 
